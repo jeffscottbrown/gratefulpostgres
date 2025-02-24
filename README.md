@@ -19,19 +19,19 @@ database that will bec reated in the container (`POSTGRES_DB`).
 ### Create A Named Container
 
 ```bash
-docker create --name gratefulcontainer -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=thegratefuldata -p 5432:5432 jeffscottbrown/gratefuldocker:0.1.0
+docker create --name gratefuldatacontainer -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=thegratefuldata -p 5432:5432 jeffscottbrown/gratefulpostgres:0.2.0
 ```
 
 ### Start The Container
 
 ```bash
-docker start gratefulcontainer
+docker start gratefuldatacontainer
 ```
 
 ### Stop The Container
 
 ```bash
-docker stop gratefulcontainer
+docker stop gratefuldatacontainer
 ```
 
 While the container is running postgres is running and listening
