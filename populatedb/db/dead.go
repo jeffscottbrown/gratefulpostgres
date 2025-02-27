@@ -31,6 +31,7 @@ func init() {
 	db.AutoMigrate(&Show{})
 	db.AutoMigrate(&Set{})
 	db.AutoMigrate(&SongPerformance{})
+	db.AutoMigrate(&Song{})
 
 	files, err := showFiles.ReadDir("shows")
 	if err != nil {
@@ -53,9 +54,9 @@ func PrintStatistics() {
 	slog.Info("Number of sets in the database", slog.Int64("count", count))
 
 	db.Model(&SongPerformance{}).Count(&count)
-	slog.Info("Number of songs in the database", slog.Int64("count", count))
+	slog.Info("Number of song performances in the database", slog.Int64("count", count))
 
-	db.Model(&SongPerformance{}).Distinct("title").Count(&count)
+	db.Model(&Song{}).Distinct("title").Count(&count)
 	slog.Info("Number of distinct song titles in the database", slog.Int64("count", count))
 
 	db.Model(&Show{}).Distinct("venue").Count(&count)
@@ -92,11 +93,12 @@ func populateDatabase(path fs.DirEntry) {
 		}
 
 		show := &Show{
-			Date:  parsedDate,
-			Venue: yamlShow.Venue,
-			City:  yamlShow.City,
-			State: yamlShow.State,
-			Sets:  make([]Set, 0),
+			Date:    parsedDate,
+			Venue:   yamlShow.Venue,
+			City:    yamlShow.City,
+			State:   yamlShow.State,
+			Country: yamlShow.Country,
+			Sets:    make([]Set, 0),
 		}
 		for setCounter, set := range yamlShow.Setlist {
 			songs := getSetList(set)
@@ -110,9 +112,22 @@ func populateDatabase(path fs.DirEntry) {
 func getSetList(set map[string]any) Set {
 	theSet := Set{}
 	for songCounter, song := range set[":songs"].([]interface{}) {
-		songName := song.(map[string]interface{})[":name"].(string)
-		newSong := SongPerformance{Title: songName, OrderInSet: songCounter + 1}
-		theSet.SongPerformances = append(theSet.SongPerformances, newSong)
+		songPerformance := SongPerformance{OrderInSet: songCounter + 1}
+		title := song.(map[string]interface{})[":name"].(string)
+		var existingSong Song
+		if err := db.Where("title = ?", title).First(&existingSong).Error; err != nil {
+			if err == gorm.ErrRecordNotFound {
+				var newSong = Song{Title: title}
+				songPerformance.Song = newSong
+				db.Create(&newSong)
+			} else {
+				log.Fatalf("Failed to query song: %v", err)
+			}
+		} else {
+			songPerformance.Song = existingSong
+		}
+
+		theSet.SongPerformances = append(theSet.SongPerformances, songPerformance)
 	}
 	return theSet
 }
