@@ -113,20 +113,12 @@ func getSetList(set map[string]any) Set {
 	theSet := Set{}
 	for songCounter, song := range set[":songs"].([]interface{}) {
 		songPerformance := SongPerformance{OrderInSet: songCounter + 1}
-		title := song.(map[string]interface{})[":name"].(string)
-		var existingSong Song
-		if err := db.Where("title = ?", title).First(&existingSong).Error; err != nil {
-			if err == gorm.ErrRecordNotFound {
-				var newSong = Song{Title: title}
-				songPerformance.Song = newSong
-				db.Create(&newSong)
-			} else {
-				log.Fatalf("Failed to query song: %v", err)
-			}
-		} else {
-			songPerformance.Song = existingSong
-		}
 
+		title := song.(map[string]interface{})[":name"].(string)
+
+		var song Song
+		db.Where("title = ?", title).FirstOrCreate(&song, Song{Title: title})
+		songPerformance.Song = song
 		theSet.SongPerformances = append(theSet.SongPerformances, songPerformance)
 	}
 	return theSet

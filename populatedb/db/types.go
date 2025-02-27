@@ -3,8 +3,8 @@ package db
 import "time"
 
 type Song struct {
-	ID    uint `gorm:"primarykey"`
-	Title string
+	ID    uint   `gorm:"primarykey"`
+	Title string `gorm:"unique"`
 }
 
 type SongPerformance struct {
