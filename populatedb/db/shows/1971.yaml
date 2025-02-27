@@ -4633,7 +4633,7 @@
       :name: El Paso
       :segued: true
     - :uuid: 28138053-4eda-4f61-9e75-95f3a1341ffc
-      :name: Dark Star Jam
+      :name: Dark Star
       :segued: true
     - :uuid: 632f44f2-b6c5-497c-953f-11f8bc308c66
       :name: Casey Jones
@@ -5811,7 +5811,7 @@
       :name: Drums
       :segued: true
     - :uuid: bb1ba5f5-622a-42ad-a15e-bf3f9e257aba
-      :name: The Other One Jam
+      :name: The Other One
       :segued: true
     - :uuid: 6805b00d-2442-484a-9244-8eec009b7df0
       :name: Me And My Uncle
