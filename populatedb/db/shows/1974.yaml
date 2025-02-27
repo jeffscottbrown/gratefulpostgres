@@ -466,7 +466,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: 2472e0c9-cc60-4708-8c85-5365c69617de
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 22dd3256-bb4c-48e7-9c84-ce763fce945b
       :name: The Other One
@@ -1107,7 +1107,7 @@
       :name: Truckin'
       :segued: true
     - :uuid: 53516f0c-afb2-4185-aff6-d00d7bd6ccb7
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: true
     - :uuid: 2f975b5c-cb75-4cc6-8140-98d4f51bb855
       :name: Wharf Rat
@@ -1512,7 +1512,7 @@
       :name: Truckin'
       :segued: true
     - :uuid: 1d6ab132-d8db-4889-8796-7ee8a11b1a35
-      :name: The Other One Jam
+      :name: The Other One
       :segued: true
     - :uuid: a8b789ff-3f12-4269-bf47-5877db5aa415
       :name: Spanish Jam
@@ -1856,7 +1856,7 @@
       :name: Truckin'
       :segued: true
     - :uuid: 9ff13afc-a4a7-4e36-af7f-5fd1de81ff38
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: true
     - :uuid: 10c07330-7b37-49d9-bb0d-9c1bd29fa52d
       :name: Playing In The Band
@@ -2889,7 +2889,7 @@
       :name: Drums
       :segued: true
     - :uuid: 9538b1f4-9c7a-455c-b853-2d29e9b7e43f
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: 4235f0d2-7388-4c59-af13-0e678f2782ed
       :name: Ship Of Fools

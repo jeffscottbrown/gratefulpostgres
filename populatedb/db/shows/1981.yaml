@@ -1784,7 +1784,7 @@
       :name: He's Gone
       :segued: false
     - :uuid: fbf4f00f-dfa3-4236-97e4-dd8c88a90689
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: false
     - :uuid: a0639c46-b490-4e99-89ff-1325196f484c
       :name: Spanish Jam
@@ -1884,7 +1884,7 @@
       :name: Drums
       :segued: false
     - :uuid: cb0998ca-0b16-4c77-a185-01a2b57743e7
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: e49ac787-234e-485f-a52c-3b4608a0ba77
       :name: Not Fade Away
@@ -1963,7 +1963,7 @@
       :name: Drums
       :segued: false
     - :uuid: 19f4e029-ac0c-4286-966c-d55d2402e16e
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 8e13a7b4-a64c-4859-a1cc-05e3be93a162
       :name: Truckin'
@@ -2358,7 +2358,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: e0a51ef3-5e70-4aa9-9671-c9cdf0f6d90a
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: c9406f74-5cc6-4bfa-b565-7e715d7165e7
       :name: Stella Blue
@@ -5834,7 +5834,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: b9efbe66-938b-4828-9d18-1d92f2169f28
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 7d287536-69a9-4132-8749-739854e0eb79
       :name: Black Peter
@@ -6071,7 +6071,7 @@
       :name: Space
       :segued: true    
     - :uuid: b1541f1e-e33c-4b76-89cd-1dc3215cccaa
-      :name: The Eleven Jam
+      :name: The Eleven
       :segued: true
     - :uuid: 0f281973-2105-41f7-9b7d-44570030cc19
       :name: Truckin'

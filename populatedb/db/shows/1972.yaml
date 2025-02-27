@@ -1244,8 +1244,6 @@
     - :uuid: 739ee1eb-160a-4166-8a97-66621034f17a
       :name: Johnny B. Goode
       :segued: false
-  - :uuid: 0df4cf5f-f72b-44a5-aef7-f7633c9ae463
-    :songs: []
 1972/04/21:
   :uuid: 2368ea3d-6445-4390-9f6f-3178131783af
   :venue: Beat Club
@@ -3177,7 +3175,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: 1bd5c326-707c-458a-abec-e858ac1c9b22
-      :name: The Other One Jam
+      :name: The Other One
       :segued: false
     - :uuid: 3d259ec4-074e-407a-9dac-d81c2f17b7d3
       :name: Drums
@@ -5145,13 +5143,13 @@
       :name: Truckin'
       :segued: false
     - :uuid: 75a45a65-163f-45cc-a20a-16abddd6c619
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 7fb9b88b-c1b9-498b-8d66-37f4a49e5afa
       :name: Drums
       :segued: false
     - :uuid: f8d796ff-6d33-4964-b2d3-ae97cee7037b
-      :name: Uncle John's Band Jam
+      :name: Uncle John's Band
       :segued: false
     - :uuid: ae0226d9-99bc-4aeb-9e2f-ba3c858604dd
       :name: Morning Dew

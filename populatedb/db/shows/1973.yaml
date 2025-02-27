@@ -1664,13 +1664,13 @@
       :name: Truckin'
       :segued: true
     - :uuid: 3a9bffe6-4bb3-4913-9289-04660407994a
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: true
     - :uuid: dc7a7c08-e985-44f3-b182-de058bdc3e72
       :name: Drums
       :segued: true
     - :uuid: 1a69d774-f17a-4df0-be2d-cb60a558c32b
-      :name: The Other One Jam
+      :name: The Other One
       :segued: true
     - :uuid: 5fff4d96-ac04-46b1-8f2f-986c656c152f
       :name: Spanish Jam
@@ -2932,7 +2932,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: e6b0cdce-4296-4e36-821a-69ce92a88cba
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 2922d743-c42d-442e-9e40-093be15a27fe
       :name: El Paso
@@ -3197,7 +3197,7 @@
       :name: Drums
       :segued: true
     - :uuid: f016a8c4-4a4e-46c4-b693-8bd1fd829dab
-      :name: The Other One Jam
+      :name: The Other One
       :segued: true
     - :uuid: 9ecb8c9c-b08a-40d4-8e82-4fe5834a583a
       :name: Eyes Of The World
@@ -4370,7 +4370,7 @@
       :name: Truckin'
       :segued: false
     - :uuid: c7cc9c57-0bd2-499c-94d8-1f01b4ba0df5
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: a337e6f5-baa1-4c96-bf6f-64869e2fbb15
       :name: Wharf Rat

@@ -1132,7 +1132,7 @@
   - :uuid: ab712432-b592-4b94-8e99-5ccb3e65e5de
     :songs:
     - :uuid: e8da86c5-7c13-403a-8806-43e694c2d119
-      :name: Dark Star Jam
+      :name: Dark Star
       :segued: false
     - :uuid: 51951f63-614c-40d5-a1e2-695835ce4c28
       :name: Death Letter Blues
@@ -1165,7 +1165,7 @@
       :name: Jam
       :segued: false
     - :uuid: 1ead4df4-6d60-49a5-9e0e-803b24e0bc5a
-      :name: Dark Star Jam
+      :name: Dark Star
       :segued: false
 1968/10/30:
   :uuid: 2d24feea-265e-457d-959b-4c6dd17e5ee3

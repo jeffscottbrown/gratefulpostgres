@@ -342,7 +342,7 @@
       :name: Jam
       :segued: true
     - :uuid: 8019f14e-04b3-440b-b9f3-35d024e7e68f
-      :name: China Cat Sunflower Jam
+      :name: China Cat Sunflower
       :segued: true
     - :uuid: bce37a84-c347-4d6f-84d7-559a9d564dfe
       :name: Jam
@@ -522,10 +522,10 @@
       :name: Jam
       :segued: true
     - :uuid: 1fccddf5-c23a-406f-8afe-da00bad428fb
-      :name: Dark Star Jam
+      :name: Dark Star
       :segued: true
     - :uuid: f405cb64-6c92-497a-a07f-bd7f56a686a5
-      :name: The Other One Jam
+      :name: The Other One
       :segued: false
 1969/02/21:
   :uuid: 8cdc9b6a-cb0d-4ca3-b38d-f80e44bf3ef1
@@ -863,13 +863,13 @@
       :name: Jam
       :segued: true
     - :uuid: '008387c6-f608-4350-a4f0-2df1c09a788e'
-      :name: And We Bid You Good Night Jam
+      :name: And We Bid You Good Night
       :segued: true
     - :uuid: 7380fe34-0593-461a-acf1-cd049a72b34d
       :name: Jam
       :segued: true
     - :uuid: a2b2f582-d8d5-47bd-85dc-07c5c9ca6ffc
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: 19b2b848-30ab-47a2-b9f4-a28faf5bb5d9
       :name: Caution (Do Not Stop On Tracks)
@@ -1232,10 +1232,10 @@
       :name: Drums
       :segued: true
     - :uuid: 11f97080-1e52-45fa-abdd-21f49904ac5b
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: 53e363f1-2ad0-4e6a-8998-dff6fe3a4979
-      :name: And We Bid You Good Night Jam
+      :name: And We Bid You Good Night
       :segued: false
 1969/04/15:
   :uuid: a9ebc471-6466-4740-9a10-d7ecdc6e9293
@@ -1466,7 +1466,7 @@
   - :uuid: 75c89642-a16d-4563-9e6c-e145e8b3131f
     :songs:
     - :uuid: 4b64f54c-a79e-4f4a-95f2-49bfd1b4ab89
-      :name: Foxy Lady Jam
+      :name: Foxy Lady
       :segued: false
     - :uuid: a31a2a96-717c-4c94-8758-e1de479665cb
       :name: Dark Star
@@ -1690,7 +1690,7 @@
       :name: Mountains Of The Moon
       :segued: true
     - :uuid: 5593a6a3-aa27-459b-b34e-dbba2caf85c4
-      :name: Dark Star Jam
+      :name: Dark Star
       :segued: true
     - :uuid: 1c94e35a-7fe0-4427-9375-0dc4f963eba6
       :name: China Cat Sunflower
@@ -1714,7 +1714,7 @@
       :name: The Other One
       :segued: true
     - :uuid: a5d6e844-40f0-4c36-a1ec-14d2f01e430d
-      :name: The Eleven Jam
+      :name: The Eleven
       :segued: true
     - :uuid: 8d79992c-0578-4c33-b336-976fe122fd36
       :name: The Other One
@@ -1752,7 +1752,7 @@
       :name: Viola Lee Blues
       :segued: true
     - :uuid: 0acbccc0-4888-4739-b2d1-74d37723600e
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: b2b50bf6-5d92-40b9-810c-0d2e87bab758
       :name: Viola Lee Blues
@@ -3298,7 +3298,7 @@
       :name: Dark Star
       :segued: true
     - :uuid: 29a3d40f-d59f-474f-8e16-95a2628235f0
-      :name: The Eleven Jam
+      :name: The Eleven
       :segued: true
     - :uuid: 73285ad5-9657-4b36-b885-2ad4632ed033
       :name: Dark Star
@@ -3331,7 +3331,7 @@
       :name: Searchin'
       :segued: true
     - :uuid: 4e20c093-5f25-4b6e-a95e-9d80e2ceacc1
-      :name: Good Lovin' Jam
+      :name: Good Lovin'
       :segued: true
     - :uuid: 4e66163d-d68a-424a-a51d-83c91ccff202
       :name: Good Lovin'
@@ -3891,10 +3891,10 @@
       :name: Jam
       :segued: true
     - :uuid: 0ea97147-12cc-4fad-8a05-7dc611ff5621
-      :name: And We Bid You Good Night Jam
+      :name: And We Bid You Good Night
       :segued: true
     - :uuid: a7f96767-150e-4f0a-9dde-c58198808461
-      :name: Uncle John's Band Jam
+      :name: Uncle John's Band
       :segued: true
     - :uuid: 12b41ffc-9e01-4eda-9046-9e766b3c33d8
       :name: Turn On Your Lovelight
@@ -3990,7 +3990,7 @@
       :name: Dark Star
       :segued: true
     - :uuid: 2919ea04-46ec-428e-b882-8344375780a7
-      :name: Uncle John's Band Jam
+      :name: Uncle John's Band
       :segued: true
     - :uuid: 4e5acd46-e280-482d-aa00-addfbd288f6a
       :name: Dark Star
@@ -4067,7 +4067,7 @@
       :name: Dark Star
       :segued: true
     - :uuid: 479e610c-8864-4112-92b1-80ee40fb7676
-      :name: Uncle John's Band Jam
+      :name: Uncle John's Band
       :segued: true
     - :uuid: 537672f4-0a55-437e-9987-68b0a16bb804
       :name: Dark Star
@@ -4085,7 +4085,7 @@
       :name: Jam
       :segued: true
     - :uuid: c718f8bd-ff4b-4ad9-a4be-f6762e96d683
-      :name: The Main Ten Jam
+      :name: The Main Ten
       :segued: true
     - :uuid: 0e1cd20e-8ce2-4da8-ab20-b2b8530520be
       :name: Caution (Do Not Stop On Tracks)
@@ -4300,7 +4300,7 @@
       :name: The Other One
       :segued: true
     - :uuid: 76b3e7f6-ac86-4e52-8e80-04d3a93ca36e
-      :name: The Eleven Jam
+      :name: The Eleven
       :segued: true
     - :uuid: a2bad23b-4ed4-4a5d-a28b-3a22045bfa65
       :name: The Other One
@@ -4339,10 +4339,10 @@
       :name: High Time
       :segued: true
     - :uuid: 7e4bb5e9-776a-4b53-88ed-e832da85d29a
-      :name: Uncle John's Band Jam
+      :name: Uncle John's Band
       :segued: true
     - :uuid: cad36259-0c0a-46e0-9efb-1a206d011358
-      :name: The Main Ten Jam
+      :name: The Main Ten
       :segued: true
     - :uuid: 9261102c-ae9d-425d-8cb4-bb17f82c6f0b
       :name: It's All Over Now, Baby Blue
@@ -4657,7 +4657,7 @@
       :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: 0e827422-226d-4eeb-ad13-7424cded43f4
-      :name: And We Bid You Good Night Jam
+      :name: And We Bid You Good Night
       :segued: true
     - :uuid: 922837fd-5a43-4173-ba4c-f02d3ea1bfd1
       :name: Caution (Do Not Stop On Tracks)
@@ -5253,7 +5253,7 @@
       :name: Jam
       :segued: true
     - :uuid: 10386ae4-b071-4bee-b4ea-46d5b2d41560
-      :name: And We Bid You Good Night Jam
+      :name: And We Bid You Good Night
       :segued: true
     - :uuid: '040529f1-ff98-409f-955e-3eb20320d038'
       :name: Alligator

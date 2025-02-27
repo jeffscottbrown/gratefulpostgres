@@ -2882,7 +2882,7 @@
       :name: Not Fade Away
       :segued: false
     - :uuid: 017ed6e9-a4ab-4f64-bba3-d4a2dbf42b0a
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: bb6cd634-933e-4b96-a655-f8dce8bdd9f5
       :name: Not Fade Away
@@ -3437,7 +3437,7 @@
       :name: Not Fade Away
       :segued: false
     - :uuid: 2902ecbe-f809-439c-8e4a-4ab61469e397
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: 73df71a6-2863-470c-ab76-6f9a367bd996
       :name: Not Fade Away
@@ -4050,7 +4050,7 @@
       :name: Not Fade Away
       :segued: true
     - :uuid: a4a1130d-cf92-438b-83c7-3659bf720c6c
-      :name: Caution (Do Not Stop On Tracks) Jam
+      :name: Caution (Do Not Stop On Tracks)
       :segued: true
     - :uuid: 75480309-0e2a-42de-b4af-7d7244fd5759
       :name: Goin' Down The Road Feeling Bad

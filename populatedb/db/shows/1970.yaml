@@ -2072,7 +2072,7 @@
       :name: Turn On Your Lovelight
       :segued: false
     - :uuid: b1e2c2b5-66ef-4b7f-8657-0e74692584e7
-      :name: The Main Ten Jam
+      :name: The Main Ten
       :segued: false
     - :uuid: 3e76ccf3-18fb-4407-a54f-c8ea198c98bc
       :name: Uncle John's Band
@@ -2181,7 +2181,7 @@
       :name: New Speedway Boogie
       :segued: false
     - :uuid: 8c3e645e-790f-4838-b4e0-df260c2820f5
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: false
     - :uuid: ded2941a-39f9-4d01-beb9-6d3e732c3a16
       :name: New Speedway Boogie
@@ -2622,7 +2622,7 @@
       :name: New Speedway Boogie
       :segued: true
     - :uuid: 192492aa-c63f-4c52-a2d1-4c9d2469f530
-      :name: Nobody's Fault But Mine Jam
+      :name: Nobody's Fault But Mine
       :segued: true
     - :uuid: a8f7764b-95cc-47ef-b577-961819d0c21a
       :name: New Speedway Boogie
